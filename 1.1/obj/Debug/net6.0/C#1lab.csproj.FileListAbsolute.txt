@@ -1,0 +1,15 @@
+C:\Users\marke\Desktop\C#1lab\1.1\bin\Debug\net6.0\C#1lab.exe
+C:\Users\marke\Desktop\C#1lab\1.1\bin\Debug\net6.0\C#1lab.deps.json
+C:\Users\marke\Desktop\C#1lab\1.1\bin\Debug\net6.0\C#1lab.runtimeconfig.json
+C:\Users\marke\Desktop\C#1lab\1.1\bin\Debug\net6.0\C#1lab.dll
+C:\Users\marke\Desktop\C#1lab\1.1\bin\Debug\net6.0\C#1lab.pdb
+C:\Users\marke\Desktop\C#1lab\1.1\obj\Debug\net6.0\C#1lab.csproj.AssemblyReference.cache
+C:\Users\marke\Desktop\C#1lab\1.1\obj\Debug\net6.0\C#1lab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marke\Desktop\C#1lab\1.1\obj\Debug\net6.0\C#1lab.AssemblyInfoInputs.cache
+C:\Users\marke\Desktop\C#1lab\1.1\obj\Debug\net6.0\C#1lab.AssemblyInfo.cs
+C:\Users\marke\Desktop\C#1lab\1.1\obj\Debug\net6.0\C#1lab.csproj.CoreCompileInputs.cache
+C:\Users\marke\Desktop\C#1lab\1.1\obj\Debug\net6.0\C#1lab.dll
+C:\Users\marke\Desktop\C#1lab\1.1\obj\Debug\net6.0\refint\C#1lab.dll
+C:\Users\marke\Desktop\C#1lab\1.1\obj\Debug\net6.0\C#1lab.pdb
+C:\Users\marke\Desktop\C#1lab\1.1\obj\Debug\net6.0\C#1lab.genruntimeconfig.cache
+C:\Users\marke\Desktop\C#1lab\1.1\obj\Debug\net6.0\ref\C#1lab.dll
