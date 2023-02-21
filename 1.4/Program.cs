@@ -1,29 +1,29 @@
-﻿int[,] array = new int[10, 10];
-int N = 9;
-int M = 9;
+﻿int n = 3;
+int m = 4;
+int[,] array = new int[n, m];
 int s = 0;
 
-for (int i = 1; i <= N; i++) {       // N - число строк
-    for (int j = 1; j <= N; j++) {   // M - число столбцов
+for (int i = 0; i < n; i++) {
+    for (int j = 0; j < m; j++) {
         Random x = new Random();
-        int n = x.Next(-100, 100);
-        array[i, j] = n;
+        int r = x.Next(-10, 11);
+        array[i, j] = r;
     }
 }
 
-for (int i=1; i <= N; i++) { 
-    for (int j=1; j <= N; j++) { 
-        Console.Write(array[i, j] + " ");
+for (int i = 0; i < n; i++) { 
+    for (int j = 0; j < m; j++) { 
+        Console.Write(array[i, j] + "\t");
     }
-    Console.WriteLine(); // переход на новую строку 
+    Console.WriteLine();
 }
 
-string userChoose = Console.ReadLine();
-int intValue = Convert.ToInt32(userChoose);
+Console.Write("Введите число: ");
+var num = int.Parse(Console.ReadLine() + " ");
 
-for (int i = 1; i <= 9; i++){
-    for (int j = 1; j <= 9; j++) {
-        if (array[i, j] == intValue) s++;
+for (int i = 0; i < n; i++){
+    for (int j = 0; j < m; j++) {
+        if (array[i, j] == num) s++;
     }
 }
 
