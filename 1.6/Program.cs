@@ -1,26 +1,37 @@
 ﻿int n = 4;
 int m = 6;
-int [,]a = new int[n, m];
-int i = 0;
-int j = 0;
-int col = 0;
-int row = 0;
-int s = 0;
+var array = new int[n, m];
 
-while (row < n){
-    i = row;
-    j = col;
-    while((i < n) && (j >= 0))
-        a[i++, j--] = s++;
+int x = 0;
+int y = 0;
 
-    if(col < (m - 1))
-        col = col + 1;
-    else row = row + 1;
+int _col = 0;
+int _row = 0;
+int current = 0;
+
+while (_row < n)
+{
+    x = _col;
+    y = _row;
+    while ((y < n) && (x >= 0))
+    {
+        array[y, x] = current;
+        y += 1;
+        x -= 1;
+        current += 1;
+    }
+
+    if (_col < (m - 1))
+        _col += 1;
+    else
+        _row += 1;
 }
 
-for(i = 0; i < n; ++i){
-    for(j = 0; j < m; ++j){
-        Console.Write(String.Format("{0,3}", a[i, j]));
+for (int i = 0; i < n; i++)
+{
+    for (int j = 0; j < m; j++)
+    {
+        Console.Write(String.Format("{0}\t", array[i, j]));
     }
-Console.WriteLine();
+    Console.WriteLine();
 }
